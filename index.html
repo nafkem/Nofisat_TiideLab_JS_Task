@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Identity Card</title>
+</head>
+<body>
+    
+    <div class="container">
+    <div class="card">
+        <div class="top-box">
+        <h2>PROFILE</h2>
+        </div>
+        <div class="bottom-box">
+            <div class="profile-image">
+                <img class="my-image" src="./image/naf2.jpg" alt="">
+            </div>
+            <div class="profile-desc">
+                <ul>
+                    <li>Name: <span>Nofisat Abiodun Ayanlola</span> </li>
+                    <li>Stack: <span>Software Developer and Data Analyst</span></li>
+                    <li><p>About Me: <span>I'm a software developer with a passion for creating
+                        innovative solutions to solve complex problems. I use programs like PowerBI, Tableau.
+                    </span></p>
+                    </li>
+                    <li>Technologies: <span id="skillset">I am currently learning HTML and CSS</span> </li>
+                </ul>
+                <button type="button" onclick="document.getElementById('skillset').
+                innerHTML = `I am currently learning <span style='color:white'>JavaScript!</span>`">Update Me!</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
